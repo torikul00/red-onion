@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-image: url('/public/images/bannerbackground.png');
+    background-size: cover;
+    background-position-x: -100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin: 10px;
+    font-size: 50px;
+}
+
+.search-input {
+    width: 500px;
+    font-size: 17px;
+    border-radius: 50px;
+    border: none;
+    padding: 13px 20px;
+
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-button {
+    border-radius: 50px;
+    padding: 13px 30px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #FA0A3E;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.search-button:hover{
+    background-color: #fa0a3edc;
+}
