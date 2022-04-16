@@ -17,11 +17,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}>
-        <Route path='breakfast' element={<Breakfast />} />
-            <Route path='lunch' element={<Lunch />} />
-            <Route path='dinner' element={<Dinner />} />
+
+                <Route path='breakfast' element={<Breakfast />} />
+                <Route path='lunch' element={<Lunch />} />
+                <Route path='dinner' element={<Dinner />} />
         </Route>
-            <Route path='/home' element={<Home />} />
             
     
         

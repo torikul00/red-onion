@@ -5,7 +5,6 @@ import useFoods from '../hooks/useFoods';
 const Breakfast = () => {
     const [food] = useFoods()
     const breakfastFoods = food?.breakfast
-    console.log(breakfastFoods)
     return (
         <>
             {

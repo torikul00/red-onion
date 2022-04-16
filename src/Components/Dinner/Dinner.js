@@ -1,11 +1,16 @@
 import React from 'react';
+import Card from '../Card/Card';
+import useFoods from '../hooks/useFoods';
 
 const Dinner = () => {
+    const [food] = useFoods()
+    const dinnerFoods = food?.dinner
     return (
-        <div>
-            
-            <h1>this is dinner routing</h1>
-        </div>
+        <>
+            {
+           dinnerFoods?.map(food => <Card key={food.id} food={food} />)
+           }
+        </>
     );
 };
 

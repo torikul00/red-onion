@@ -10,7 +10,7 @@ const Navbar = () => {
         <div>
             <nav>
                 <div>
-                    <img onClick={()=> navigate('/home')} className='logo' src='images/logo2.png' alt="" />
+                    <img onClick={()=> navigate('/')} className='logo' src='images/logo2.png' alt="" />
                 </div>
 
                 <div className="links">
