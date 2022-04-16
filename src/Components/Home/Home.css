@@ -8,6 +8,7 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+ 
 }
 
 .title {
@@ -23,7 +24,6 @@ header {
     padding: 13px 20px;
 
 }
-
 .search-input:focus {
     outline: none;
 }
@@ -31,7 +31,6 @@ header {
 .search-container {
     position: relative;
 }
-
 .search-button {
     border-radius: 50px;
     padding: 13px 30px;
@@ -47,4 +46,20 @@ header {
 }
 .search-button:hover{
     background-color: #fa0a3edc;
+}
+.items-container{
+    width: 100%;
+    height: 100vh;
+}
+.items-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.items-links a{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: bold;
+    font-size: 18px;
 }

@@ -14,6 +14,7 @@ const Navbar = () => {
                 <div className="links">
                     <a  href="/"><AiOutlineShoppingCart className='cart-icon' /></a>
                     <a href="/">Login</a>
+                    <button className='signUp-button'>Sign Up</button>
                 </div>
             </nav>
         </div>

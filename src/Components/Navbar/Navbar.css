@@ -26,3 +26,12 @@ nav{
     font-size: 25px;
    margin-top: 5px;
 }
+.signUp-button{
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    background-color:#FA0A3E ;
+    color: white;
+    font-size: 17px;
+}
