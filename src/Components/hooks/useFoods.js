@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react"
 
 const useFoods = () => {
-    const [food,setFood] = useState({})
+    const [food,setFoods] = useState({})
 
     useEffect(() => {
         fetch('foods.json') 
         .then(res => res.json())
-        .then(data => setFood(data))
+        .then(data => setFoods(data))
     },[])
-    return [food , setFood]
+    return [food , setFoods]
 }
 
 export default useFoods;

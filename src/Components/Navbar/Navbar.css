@@ -9,6 +9,7 @@ nav{
 }
 .logo{
     width: 150px;
+    cursor: pointer;
 }
 .links{
     display: flex;

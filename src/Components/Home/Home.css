@@ -63,3 +63,9 @@ header {
     font-weight: bold;
     font-size: 18px;
 }
+.food-items{
+    margin: 0px 60px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,14 @@
+.item-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.single-item {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+.single-item img {
+    width: 200px;
+}

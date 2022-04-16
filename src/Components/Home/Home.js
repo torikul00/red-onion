@@ -1,13 +1,9 @@
 import React from 'react';
-import Card from '../Card/Card';
-import useFoods from '../hooks/useFoods';
-import './Home.css'
+import { Link, Outlet } from 'react-router-dom';
 
+import './Home.css'
 const Home = () => {
 
-    const [food, setFood] = useFoods()
-    const breakfastFoods = food.breakfast
-    console.log(breakfastFoods)
    
     return (
         <div>
@@ -22,17 +18,13 @@ const Home = () => {
             <main>
                 <div className="items-container">
                        <div className="items-links">
-                        <a href="">Breakfast</a>
-                        <a href="">Lunch</a>
-                        <a href="">Dinner</a>                                               
+                        <Link to="breakfast">Breakfast</Link>
+                        <Link to="lunch">Lunch</Link>
+                        <Link to="dinner">Dinner</Link>                                               
                     </div>
-
-
                     <div className="food-items">
-
-                        {
-                            breakfastFoods?.map(food => <Card key={food.id} food={food} />)
-                        }
+                       
+                        <Outlet />
                         
                     </div>
                 </div>
